@@ -1,0 +1,15 @@
+.banner {
+    background-color: grey;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 20px; /* Optional: Add some padding inside the main content */
+}
