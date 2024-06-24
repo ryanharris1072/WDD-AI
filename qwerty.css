@@ -1,0 +1,58 @@
+
+.banner {
+    background-color: #1310e4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-emphasis-color: ;
+}
+body {
+    background-color: gold;
+    margin: 0;
+    padding: 0%;
+}
+main {
+    padding: 0%;
+}
+
+div {
+    margin: auto;
+    padding: 0%;
+    background-color: rgb(255, 217, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+}
+
+#div1 {
+    float: left;
+
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  
+  #div1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #div2 {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .name-cards {
+    float: left;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+}
