@@ -1,0 +1,14 @@
+body {
+    font-family: serif;
+    margin: 10px 50px 20px;
+    padding: 10px 50px 30px 0;;
+    background-color: brown;
+}
+
+.banner {
+    background-color: rgb(255, 255, 128);
+    color: rebeccapurple;
+    text-align: start;
+    padding: 1em
+    font-size: 0;
+    font-weight: bold;

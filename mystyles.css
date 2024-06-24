@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.soccer-ball {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, white 60%, black 60%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: black;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.p1 { top: 10%; left: 50%; transform: translate(-50%, -50%); }
+.p2 { top: 50%; left: 10%; transform: translate(-50%, -50%); }
+.p3 { top: 50%; left: 90%; transform: translate(-50%, -50%); }
+.p4 { top: 90%; left: 30%; transform: translate(-50%, -50%); }
+.p5 { top: 90%; left: 70%; transform: translate(-50%, -50%); }
