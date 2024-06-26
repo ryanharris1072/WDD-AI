@@ -71,7 +71,15 @@
                 <p>The test size = 1000</p>
                 <p>The callbacks have name='Model Training', tab='Model', styles='{height: 1000px'} metrics={'loss', 'val_loss', 'acc', 'val_acc'}</p>
                 <button onclick="trainModel()">Train the model</button>
-            </div>            
+            </div>
+             <div id="div11"></div>
+            <div id="div12">
+                    <h2>Section 8. Evaluate the model</h2>
+                    <p>We will obtain 500 images from the dataset mnistData.</p>
+                    <p>We use the trained model to calculate the predictions and then compare the predictions with the provided labels.</p>
+                    <p>We then draw a confusion matrix to show for each digit, how many images are labeled for that digit and how many images that predicted to that digit. Further, how many differences.</p>
+                    <button onclick="showConfusionMatrix()">Show a confusion matrix</button>
+                </div>
         </div>
     </main>
 
